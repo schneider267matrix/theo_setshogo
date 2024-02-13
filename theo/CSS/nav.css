@@ -1,0 +1,35 @@
+.topnav {
+    overflow:hidden;
+}
+.topnav li {
+    display:inline-block;
+}
+.topnav a{
+    text-decoration:none;
+    color:#fff;
+    display:inline-block;
+    padding:5px 20px;
+    font-size:20px;
+    font-family:Helvetica;
+}
+.topnav a:hover {
+    background:#000;
+    transition:0.4s;
+}
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: ;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}

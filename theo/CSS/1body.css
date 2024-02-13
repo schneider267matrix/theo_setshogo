@@ -1,0 +1,117 @@
+.topnav {
+    overflow:hidden;
+}
+.topnav li {
+    display:inline-block;
+}
+.topnav a{
+    text-decoration:none;
+    color:white;
+    display:inline-block;
+    padding:5px 20px;
+    font-size:20px;
+    font-family:Helvetica;
+}
+.topnav a:hover {
+    background:#000;
+    transition:0.4s;
+}
+
+
+
+body{
+  background-image:url('https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:overflow;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+  padding-left: 255px;
+  padding-right: 255px;
+
+}
+#showcase h1{
+    font-size:25px;
+    line-height:1.6;
+    color:white;
+
+}
+#showcase h2{
+    font-size:20px;
+    line-height:1.6;
+    color:white;
+   
+}
+#showcase p{
+    font-size:20px;
+    line-height:1.6;
+    color:white;   
+    text-align: center;
+	
+}
+
+/* on screens that are less than 700px wide, make the sidebar into a topbar*/
+@media screen and (max-width:700px)
+{
+    .sidebar {
+        width:100px;
+        height:auto;
+        position:relative;
+    }
+    div.content {margin-left:0}
+}
+/* on screens that are less than 400px wide, mdisplay the bar vertically instead of horizotally*/
+@media screen and (max-width:400px)
+{
+    .sidebar a {
+        text-align:center;
+        float:none;
+    }
+
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+<button id="myButton" class="float-left submit-button" >Home</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.yoursite.com";
+    };
+</script>

@@ -1,0 +1,24 @@
+body{
+  background-image:url('https://images7.alphacoders.com/366/thumb-1920-366859.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:overflow;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding-left:255px;
+  padding-right:255px;
+}
+#showcase h1{
+    font-size:70px;
+    line-height:1.6;
+    color:white;
+   
+}
+#showcase p{
+    font-size:50px;
+    line-height:1.6;
+    color:white;   
+}
